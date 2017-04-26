@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="clearfix">
     <dir></dir>
-    <div style="overflow:hidden">
+    <div style="overflow:auto">
       <router-view></router-view>
     </div>
   </div>
