@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "basscss": "^8.0.3",
+    "three": "^0.85.2",
     "vue": "^2.2.6",
     "vue-router": "^2.3.1"
   },

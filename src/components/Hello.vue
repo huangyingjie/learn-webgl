@@ -6,7 +6,7 @@
 
 <script>
 /* global requestAnimationFrame */
-import THREE from 'three'
+import * as THREE from 'three'
 import logo from '../assets/logo.png'
 
 let currentTime = Date.now()

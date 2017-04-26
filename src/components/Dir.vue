@@ -1,7 +1,7 @@
 <template lang='pug'>
-  div.hello
-    ul.clearfix.mx4(v-for="page in list")
-      li.left.mx2
+  div.dir.left.mx4
+    ul
+      li.mx2.col3(v-for="page in list")
         router-link(:to="page.url") {{ page.title }}
 </template>
 
@@ -11,6 +11,9 @@ export default {
   data () {
     return {
       list: [{
+        url: '/',
+        title: 'WebGL with Three.js'
+      }, {
         url: '/basic',
         title: 'WebGL basic'
       }]
@@ -27,7 +30,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  text-align:left;
   margin: 0 10px;
 }
 </style>
