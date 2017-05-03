@@ -16,6 +16,9 @@ export default {
       }, {
         url: '/basic',
         title: 'WebGL basic'
+      }, {
+        url: '/basic/addPoint',
+        title: 'add point by click'
       }]
     }
   }

@@ -10,6 +10,7 @@ export default new Router({
   mode: 'history',
   routes: [
         { path: '/', component: resolve => System.import('@/components/Hello').then(resolve).catch(errorLoad) },
+        { path: '/basic/addPoint', component: resolve => System.import('@/components/PointAdd').then(resolve).catch(errorLoad) },
         { path: '/basic', component: resolve => System.import('@/components/Basic').then(resolve).catch(errorLoad) }
   ]
 })
